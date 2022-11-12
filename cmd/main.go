@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/lgzzzz/lgzkit/pkg"
+	"github.com/lgzzzz/LGZ/pkg"
 	"os"
 )
 

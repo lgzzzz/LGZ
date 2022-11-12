@@ -1,3 +1,3 @@
-module github.com/lgzzzz/lgzkit
+module github.com/lgzzzz/LGZ
 
-go 1.18
+go 1.19
