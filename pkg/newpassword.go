@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func NewPassport() string {
+func NewPassword() string {
 	p := make([]byte, 10)
 	rand.Seed(time.Now().Unix())
 	for i := range p {

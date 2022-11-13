@@ -11,7 +11,7 @@ func main() {
 		os.Exit(0)
 	}
 	if os.Args[1] == "newpassword" {
-		str := pkg.NewPassport()
+		str := pkg.NewPassword()
 		fmt.Println(str)
 	}
 
