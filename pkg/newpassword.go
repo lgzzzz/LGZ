@@ -7,7 +7,7 @@ import (
 
 func NewPassword() string {
 	p := make([]byte, 10)
-	rand.Seed(time.Now().Unix())
+	rand.Seed(time.Now().UnixNano())
 	for i := range p {
 		for {
 			ch := rand.Intn(255)
